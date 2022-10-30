@@ -9,6 +9,6 @@ class Solution:
         
         #Stride the output from he negative index
         res = x[::-1]
-        # and comapre
+        # and compare
         if str(x) == str(res):
             return True
